@@ -1,0 +1,7 @@
+# Unlimited line length
+# https://github.com/DavidAnson/markdownlint/blob/v0.26.2/doc/Rules.md#md013---line-length
+MD013: false
+
+# Allow inline HTML
+# https://github.com/DavidAnson/markdownlint/blob/v0.26.2/doc/Rules.md#md033---inline-html
+MD033: false

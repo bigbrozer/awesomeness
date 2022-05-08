@@ -1,0 +1,142 @@
+# Site configuration
+site_name: Awesomeness
+site_author: Awesomeness community
+copyright: Awesomeness community
+repo_name: bigbrozer/awesomeness
+repo_url: https://github.com/bigbrozer/awesomeness
+
+# Theme
+theme:
+  name: material
+  icon:
+    logo: material/book
+    repo: fontawesome/brands/github
+  #favicon: _assets/img/favicon.png
+  language: en
+
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+# Markdown extensions
+# For the complete list: https://facelessuser.github.io/pymdown-extensions/
+#
+markdown_extensions:
+  # Adds a syntax to define CSS/HTML attributes on markdown elements
+  - attr_list
+
+  # Special boxes like info, warning, etc...
+  - admonition
+
+  # Add meta tags support (YAML frontmatter)
+  - meta
+
+  # Markdown in HTML
+  - md_in_html
+
+  # Add syntax highlighting for over 300 languages
+  - pymdownx.highlight
+
+  # Allow to create collapsible boxes
+  - pymdownx.details
+
+  # Inline code highlighting
+  - pymdownx.inlinehilite
+
+  # Support tabs
+  - pymdownx.tabbed:
+      alternate_style: true
+
+  # Add emojis !
+  - pymdownx.emoji
+
+  # Support nested code blocks
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          # Escape exclamation mark for PyYAML tags
+          format: !!python/name:pymdownx.superfences.fence_div_format
+
+  # Add support for tasks (like GitHub)
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+  # Add footnotes support
+  - footnotes
+
+  # TOC params, add permalinks
+  - toc:
+      permalink: true
+
+  # Progress bars
+  - pymdownx.progressbar
+
+  # Magic links
+  - pymdownx.magiclink
+
+  # Tilde (~~ for strikeout)
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  # Enable search
+  - search
+
+  # Show last modified date on pages
+  - git-revision-date-localized:
+      type: iso_date
+      fallback_to_build_date: true
+
+  # Enable variables (macros)
+  - macros:
+      include_dir: docs/macros
+
+  # Enable tags
+  - tags:
+      tags_file: tags.md
+
+# Navigation
+nav:
+  - Home: index.md
+  - Awesome Lists:
+    - Pinned:
+      - lists/golang.md
+      - lists/godot.md
+      - lists/kubernetes.md
+      - lists/python.md
+    - Development:
+      - lists/game-development.md
+      - lists/javascript.md
+      - lists/web-development.md
+    - Graphics:
+      - lists/gfx.md
+    - Do It Yourself:
+      - lists/home-automation.md
+      - lists/self-hosted.md
+    - Systems:
+      - lists/hardware.md
+      - lists/networking.md
+      - lists/utilities.md
+    - Privacy:
+      - lists/block-lists.md
+  - tags.md

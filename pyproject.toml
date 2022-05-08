@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "awesome-vinz-lists"
+version = "0.1.0"
+description = "My Awesome Lists"
+authors = ["Vincent Besançon <besancon.vincent@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.1"
+mkdocs-material = "^8.5.7"
+mkdocs-macros-plugin = "^0.7.0"
+mkdocs-git-revision-date-localized-plugin = "^1.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
