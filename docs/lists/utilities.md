@@ -13,6 +13,10 @@ tags:
 
 * * *
 
+## Build Systems
+
+- [ninja](https://github.com/ninja-build/ninja) — A small build system with a focus on speed.
+
 ## Development
 
 - [vscode-dev-containers](https://github.com/microsoft/vscode-dev-containers) — A repository of development container definitions for the VS Code Remote - Containers extension.
