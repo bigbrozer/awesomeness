@@ -14,6 +14,10 @@ tags:
 
 * * *
 
+## Automation
+
+- [huginn](https://github.com/huginn/huginn) — Create agents that monitor and act on your behalf. Build agents that perform automated tasks for you online.
+
 ## DNS
 
 - [serverless-dns](https://github.com/serverless-dns/serverless-dns) — The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, and Fly.io.

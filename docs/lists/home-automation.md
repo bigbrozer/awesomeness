@@ -16,8 +16,6 @@ tags:
 
 ## House
 
-### Batroom
-
 - [Automated Bathroom Exhaust Fan using Humidity Sensor](https://selfhostedhome.com/automated-bathroom-exhaust-fan-using-humidity-sensor/)
 
 ## Mower
