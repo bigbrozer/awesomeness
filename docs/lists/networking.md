@@ -13,6 +13,10 @@ tags:
 
 * * *
 
+## Datacenter Infrastructure Management
+
+- [netbox](https://github.com/netbox-community/netbox) — A solution for modeling and documenting modern networks by combining the traditional disciplines of IPAM and DCIM with powerful APIs and extensions.
+
 ## Distributions
 
 - [opnsense](https://opnsense.org/) — An open source, easy-to-use and easy-to-build FreeBSD based firewall and routing platform.
