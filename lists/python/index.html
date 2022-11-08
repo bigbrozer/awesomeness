@@ -1,0 +1,1907 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+        <meta name="author" content="Awesomeness community">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.1, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>Python - Awesomeness</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="blue">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#python" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="Awesomeness" class="md-header__button md-logo" aria-label="Awesomeness" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Awesomeness
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Python
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="blue"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bigbrozer/awesomeness" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigbrozer/awesomeness
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../golang/" class="md-tabs__link md-tabs__link--active">
+        Awesome Lists
+      </a>
+    </li>
+  
+
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../tags/" class="md-tabs__link">
+      Tags
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Awesomeness" class="md-nav__button md-logo" aria-label="Awesomeness" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 22a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2h-6v7L9.5 7.5 7 9V2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12Z"/></svg>
+
+    </a>
+    Awesomeness
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bigbrozer/awesomeness" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    bigbrozer/awesomeness
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Awesome Lists
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Awesome Lists" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Awesome Lists
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Pinned
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pinned" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Pinned
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../golang/" class="md-nav__link">
+        Golang
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../godot/" class="md-nav__link">
+        Godot Game Engine
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kubernetes/" class="md-nav__link">
+        Kubernetes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Python
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Python
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    About
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    AI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automation" class="md-nav__link">
+    Automation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#builds" class="md-nav__link">
+    Builds
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-quality" class="md-nav__link">
+    Code Quality
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#command-line-interface" class="md-nav__link">
+    Command Line Interface
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    Configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conversions" class="md-nav__link">
+    Conversions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#courses" class="md-nav__link">
+    Courses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cryptography" class="md-nav__link">
+    Cryptography
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-structures" class="md-nav__link">
+    Data structures
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#date-and-time" class="md-nav__link">
+    Date and time
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-parsing-validation" class="md-nav__link">
+    Data parsing &amp; validation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    Debugging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-patterns" class="md-nav__link">
+    Design patterns
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrams" class="md-nav__link">
+    Diagrams
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documents" class="md-nav__link">
+    Documents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distribution" class="md-nav__link">
+    Distribution
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    Databases
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    Documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#e-commerce-solutions" class="md-nav__link">
+    E-Commerce solutions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#games-development" class="md-nav__link">
+    Games development
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gui" class="md-nav__link">
+    GUI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-gathering" class="md-nav__link">
+    Information gathering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image-manipulation" class="md-nav__link">
+    Image manipulation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrations" class="md-nav__link">
+    Integrations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    Logging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network" class="md-nav__link">
+    Network
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notifications" class="md-nav__link">
+    Notifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parsing" class="md-nav__link">
+    Parsing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedulers" class="md-nav__link">
+    Schedulers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    Security
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#static-sites" class="md-nav__link">
+    Static Sites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#styling" class="md-nav__link">
+    Styling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#task-queues" class="md-nav__link">
+    Task queues
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#telemetry" class="md-nav__link">
+    Telemetry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templates" class="md-nav__link">
+    Templates
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tests" class="md-nav__link">
+    Tests
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-editing" class="md-nav__link">
+    Video editing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-control" class="md-nav__link">
+    Version control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtual-environments" class="md-nav__link">
+    Virtual environments
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Development
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Development" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Development
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../game-development/" class="md-nav__link">
+        Game Development
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../javascript/" class="md-nav__link">
+        JavaScript
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../web-development/" class="md-nav__link">
+        Web development
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Graphics
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Graphics" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Graphics
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gfx/" class="md-nav__link">
+        GFX
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Do It Yourself
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Do It Yourself" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Do It Yourself
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../home-automation/" class="md-nav__link">
+        Home automation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../self-hosted/" class="md-nav__link">
+        Self-Hosted
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_5" type="checkbox" id="__nav_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_5">
+          Systems
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Systems" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Systems
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardware/" class="md-nav__link">
+        Hardware
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../networking/" class="md-nav__link">
+        Networking
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../utilities/" class="md-nav__link">
+        Utilities
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+      
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_6" type="checkbox" id="__nav_2_6" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_6">
+          Privacy
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Privacy" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_6">
+          <span class="md-nav__icon md-icon"></span>
+          Privacy
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../block-lists/" class="md-nav__link">
+        Block Lists
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../tags/" class="md-nav__link">
+        Tags
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#about" class="md-nav__link">
+    About
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ai" class="md-nav__link">
+    AI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#api" class="md-nav__link">
+    API
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#authentication" class="md-nav__link">
+    Authentication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#automation" class="md-nav__link">
+    Automation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#builds" class="md-nav__link">
+    Builds
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#code-quality" class="md-nav__link">
+    Code Quality
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#command-line-interface" class="md-nav__link">
+    Command Line Interface
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configuration" class="md-nav__link">
+    Configuration
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conversions" class="md-nav__link">
+    Conversions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#courses" class="md-nav__link">
+    Courses
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cryptography" class="md-nav__link">
+    Cryptography
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-structures" class="md-nav__link">
+    Data structures
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#date-and-time" class="md-nav__link">
+    Date and time
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-parsing-validation" class="md-nav__link">
+    Data parsing &amp; validation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#debugging" class="md-nav__link">
+    Debugging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#design-patterns" class="md-nav__link">
+    Design patterns
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrams" class="md-nav__link">
+    Diagrams
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documents" class="md-nav__link">
+    Documents
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#distribution" class="md-nav__link">
+    Distribution
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#databases" class="md-nav__link">
+    Databases
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentation" class="md-nav__link">
+    Documentation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#e-commerce-solutions" class="md-nav__link">
+    E-Commerce solutions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#games-development" class="md-nav__link">
+    Games development
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#gui" class="md-nav__link">
+    GUI
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#information-gathering" class="md-nav__link">
+    Information gathering
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#image-manipulation" class="md-nav__link">
+    Image manipulation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#integrations" class="md-nav__link">
+    Integrations
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logging" class="md-nav__link">
+    Logging
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#network" class="md-nav__link">
+    Network
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notifications" class="md-nav__link">
+    Notifications
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parsing" class="md-nav__link">
+    Parsing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#schedulers" class="md-nav__link">
+    Schedulers
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#security" class="md-nav__link">
+    Security
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#static-sites" class="md-nav__link">
+    Static Sites
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#styling" class="md-nav__link">
+    Styling
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#task-queues" class="md-nav__link">
+    Task queues
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#telemetry" class="md-nav__link">
+    Telemetry
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#templates" class="md-nav__link">
+    Templates
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tests" class="md-nav__link">
+    Tests
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#video-editing" class="md-nav__link">
+    Video editing
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#version-control" class="md-nav__link">
+    Version control
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#virtual-environments" class="md-nav__link">
+    Virtual environments
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+  
+
+  <nav class="md-tags" >
+    
+      
+      
+        <a href="../../tags/#programming-language" class="md-tag">programming-language</a>
+      
+    
+      
+      
+        <a href="../../tags/#python" class="md-tag">python</a>
+      
+    
+  </nav>
+
+
+
+  <a href="https://github.com/bigbrozer/awesomeness/edit/master/docs/lists/python.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="python">Python<a class="headerlink" href="#python" title="Permanent link">&para;</a></h1>
+<div align="center">
+    <a href="https://awesome.re">
+        <img src="https://awesome.re/badge.svg" alt="Awesome">
+    </a>
+</div>
+
+<h2 id="about">About<a class="headerlink" href="#about" title="Permanent link">&para;</a></h2>
+<p>I started this list in 2019 to keep my findings around cool Python projects I may use or work with. This is the time now to share it 🎉</p>
+<p>Enjoy ❤️</p>
+<hr />
+<h2 id="ai">AI<a class="headerlink" href="#ai" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/kuprel/min-dalle">min-dalle</a> — A minimal implementation of DALL·E Mini.</li>
+</ul>
+<h2 id="api">API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://github.com/tiangolo/fastapi">fastapi</a> — FastAPI framework, high performance, easy to learn, fast to code, ready for production.</p>
+</li>
+<li>
+<p><a href="https://github.com/mvantellingen/python-zeep">zeep</a> (<a href="https://docs.python-zeep.org/en/master/index.html">docs</a>) — A modern/fast python SOAP client based on lxml / requests.</p>
+</li>
+<li>
+<p>⭐ <a href="https://github.com/markphelps/flipt">flipt</a> — An open-source, on-prem feature flag solution. Cross languages.</p>
+</li>
+<li>
+<p><a href="https://github.com/zhanymkanov/fastapi-best-practices">fastapi-best-practices</a> — Best Practices and Conventions for Fast API.</p>
+</li>
+</ul>
+<h2 id="authentication">Authentication<a class="headerlink" href="#authentication" title="Permanent link">&para;</a></h2>
+<ul>
+<li>⭐ <a href="https://github.com/goauthentik/authentik">authentik</a> — An open-source Identity Provider focused on flexibility and versatility.</li>
+</ul>
+<h2 id="automation">Automation<a class="headerlink" href="#automation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://github.com/pydoit/doit">doit</a> (<a href="https://pydoit.org/contents.html">docs</a>) — bringing the power of build-tools to execute any kind of task.</p>
+</li>
+<li>
+<p>⭐ <a href="https://github.com/fabric/fabric">fabric</a> — Simple, Pythonic remote execution and deployment.</p>
+</li>
+<li>
+<p><a href="https://github.com/pyinvoke/invoke">invoke</a> — Pythonic task management &amp; command execution.</p>
+</li>
+<li>
+<p><a href="https://github.com/asweigart/pyautogui">pyautogui</a> — Used to programmatically control the mouse &amp; keyboard.</p>
+</li>
+</ul>
+<h2 id="builds">Builds<a class="headerlink" href="#builds" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://github.com/pyinstaller/pyinstaller">pyinstaller</a> — Freeze (package) Python programs into stand-alone executables</p>
+</li>
+<li>
+<p>⭐ <a href="https://nuitka.net/pages/overview.html">Nuitka</a> (<a href="https://github.com/Nuitka/Nuitka">sources</a>) — translates the Python modules into a C level program that then uses <code>libpython</code> and static C files of its own to execute in the same way as CPython does.</p>
+</li>
+<li>
+<p><a href="https://github.com/pantsbuild/pants">pants</a> — Pants v2 is a fast, scalable build system for growing codebases.</p>
+</li>
+<li>
+<p><a href="https://github.com/indygreg/PyOxidizer">PyOxidizer</a> — a modern Python application packaging and distribution tool.</p>
+</li>
+<li>
+<p><a href="https://gitlab.com/saltstack/pop/tiamat">tiamat</a> — Single binary builder for Python projects.</p>
+</li>
+</ul>
+<h2 id="code-quality">Code Quality<a class="headerlink" href="#code-quality" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://github.com/commitizen-tools/commitizen">commitizen</a> — Create committing rules for projects 🚀 auto bump versions ⬆️ and auto changelog generation 📂</p>
+</li>
+<li>
+<p>⭐ <a href="https://github.com/pre-commit/pre-commit">pre-commit</a> — A framework for managing and maintaining multi-language pre-commit hooks.</p>
+</li>
+<li>
+<p><a href="https://github.com/kettanaito/naming-cheatsheet">variables naming cheatsheet</a> — Comprehensive language-agnostic guidelines on variables naming.</p>
+</li>
+<li>
+<p>⭐ <a href="https://github.com/PyCQA/prospector">prospector</a> — Inspects Python source files and provides information about type and location of classes, methods etc...</p>
+</li>
+<li>
+<p><a href="https://github.com/jorisroovers/gitlint">gitlint</a> — Linting for your git commit messages.</p>
+</li>
+</ul>
+<h2 id="command-line-interface">Command Line Interface<a class="headerlink" href="#command-line-interface" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://github.com/magmax/python-inquirer">inquirer</a> — A collection of common interactive command line user interfaces, based on Inquirer.js</p>
+</li>
+<li>
+<p><a href="https://github.com/tiangolo/typer">typer</a> — Typer, build great CLIs. Easy to code. Based on Python type hints.</p>
+</li>
+<li>
+<p>⭐ <a href="https://click.palletsprojects.com/en/7.x/">Click</a> — Python package for creating beautiful command line interfaces in a composable way with as little code as necessary.</p>
+</li>
+<li><a href="https://github.com/janluke/cloup">cloup</a> (<a href="https://cloup.readthedocs.io/en/stable/">docs</a>) — Library to build command line interfaces (CLIs) based on Click. Cloup = Click + option groups, constraints, command aliases, command sections, help themes, "did you mean ...?" suggestions ...</li>
+<li>
+<p><a href="https://github.com/kdeldycke/click-extra">click-extra</a> (<a href="https://kdeldycke.github.io/click-extra/">docs</a>) — <img alt="🌈" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f308.png" title=":rainbow:" /> Extra colorization and configuration loading for Click.</p>
+</li>
+<li>
+<p>⭐ <a href="https://github.com/willmcgugan/rich">rich</a> (<a href="https://rich.readthedocs.io/en/latest/index.html">docs</a>) — a Python library for rich text and beautiful formatting in the terminal.</p>
+</li>
+</ul>
+<h2 id="configuration">Configuration<a class="headerlink" href="#configuration" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://github.com/willkg/everett">everett</a> — Everett is a Python configuration library for your app.</p>
+</li>
+<li>
+<p><a href="https://github.com/henriquebastos/python-decouple">decouple</a> — Decouple helps you to organize your settings so that you can change parameters without having to redeploy your app.</p>
+</li>
+<li>
+<p><a href="https://github.com/hernantz/classyconf">classyconf</a> — Declarative and extensible library for configuration &amp; code separation.</p>
+</li>
+<li>
+<p><a href="https://github.com/Zuehlke/ConfZ">ConfZ</a> — ConfZ is a configuration management library for Python based on pydantic.</p>
+</li>
+</ul>
+<h2 id="conversions">Conversions<a class="headerlink" href="#conversions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>⭐ <a href="https://github.com/un33k/python-slugify">python-slugify</a> — Returns unicode slugs.</li>
+</ul>
+<h2 id="courses">Courses<a class="headerlink" href="#courses" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://www.geeksforgeeks.org/python-programming-language/?ref=shm">Python Programming Language</a> — GeeksforGeeks</li>
+</ul>
+<h2 id="cryptography">Cryptography<a class="headerlink" href="#cryptography" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/pyca/cryptography">cryptography</a> [<a href="https://cryptography.io/en/latest/">docs</a>] — A package designed to expose cryptographic primitives and recipes to Python developers.</li>
+</ul>
+<h2 id="data-structures">Data structures<a class="headerlink" href="#data-structures" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/jina-ai/docarray/">docarray</a> — The data structure for unstructured data.</li>
+</ul>
+<h2 id="date-and-time">Date and time<a class="headerlink" href="#date-and-time" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/arrow-py/arrow">arrow</a> — Arrow is a Python library that offers a sensible and human-friendly approach to creating, manipulating, formatting and converting dates, times and timestamps.</li>
+</ul>
+<h2 id="data-parsing-validation">Data parsing &amp; validation<a class="headerlink" href="#data-parsing-validation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://github.com/wyfo/apischema">apischema</a> — JSON (de)serialization, GraphQL and JSON schema generation using Python typing.</p>
+</li>
+<li>
+<p>⭐ <a href="https://github.com/samuelcolvin/pydantic/">pydantic</a> — Data parsing and validation using Python type hints.</p>
+</li>
+<li>
+<p><a href="https://github.com/jcrist/msgspec">msgspec</a> — A fast and friendly JSON/MessagePack library, with optional schema validation.</p>
+</li>
+</ul>
+<h2 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/cool-RR/PySnooper">PySnooper</a> — A poor man's debugger. If you've used Bash, it's like <code>set -x</code> for Python, except it's fancier.</li>
+</ul>
+<h2 id="design-patterns">Design patterns<a class="headerlink" href="#design-patterns" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://python-patterns.guide/">Python Design Patterns</a> — Ideas about Python and Design Patterns all in one place.</p>
+</li>
+<li>
+<p><a href="https://github.com/faif/python-patterns">faif/python-patterns</a> — A collection of design patterns/idioms in Python.</p>
+</li>
+</ul>
+<h2 id="diagrams">Diagrams<a class="headerlink" href="#diagrams" title="Permanent link">&para;</a></h2>
+<ul>
+<li>⭐ <a href="https://github.com/mingrammer/diagrams">diagrams</a> — Diagram as Code for prototyping cloud system architectures</li>
+</ul>
+<h2 id="documents">Documents<a class="headerlink" href="#documents" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/jorisschellekens/borb">borb</a> — A library for reading, creating and manipulating PDF files in python.</li>
+</ul>
+<h2 id="distribution">Distribution<a class="headerlink" href="#distribution" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://pypi.org/project/pex/">pex</a> — A library for generating <code>.pex</code> (Python EXecutable) files which are executable Python environments in the spirit of virtualenvs.</p>
+</li>
+<li>
+<p><a href="https://docs.python.org/3.9/library/zipapp.html">zipapp</a> — This module provides tools to manage the creation of zip files containing Python code, which can be executed directly by the Python interpreter.</p>
+</li>
+<li>
+<p><a href="https://github.com/voila-dashboards/voila">voilà</a> — Voilà turns Jupyter notebooks into standalone web applications.</p>
+</li>
+</ul>
+<h2 id="databases">Databases<a class="headerlink" href="#databases" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/coleifer/peewee">peewee</a> (<a href="http://docs.peewee-orm.com/en/latest/">docs</a>) — a small, expressive orm that supports postgresql, mysql and sqlite.</li>
+</ul>
+<h2 id="documentation">Documentation<a class="headerlink" href="#documentation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://www.mkdocs.org/">MkDocs</a> with <a href="https://squidfunk.github.io/mkdocs-material/">MkDocs Material</a> — Project documentation with Markdown (themed with Material Design).</p>
+</li>
+<li>
+<p><a href="https://github.com/pradyunsg/furo">furo</a> — Furo is a nice theme for Sphinx.</p>
+</li>
+<li>
+<p><a href="https://timvink.github.io/mkdocs-charts-plugin/">mkdocs-charts-plugin</a> — Plugin to create plots from data using the declarative <a href="https://vega.github.io/vega-lite/">vegalite</a> syntax.</p>
+</li>
+</ul>
+<h2 id="e-commerce-solutions">E-Commerce solutions<a class="headerlink" href="#e-commerce-solutions" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://github.com/saleor/saleor">saleor</a> — A modular, high performance, headless e-commerce platform built with Python, GraphQL, Django, and React.</p>
+</li>
+<li>
+<p><a href="https://github.com/django-oscar/django-oscar/">oscar</a> — An e-commerce framework for Django designed for building domain-driven sites..</p>
+</li>
+<li>
+<p><a href="https://github.com/shuup/shuup">shuup</a> [<a href="https://shuup.readthedocs.io/en/latest/index.html">docs</a>] — An Open Source E-Commerce Platform based on Django and Python with multi-vendors support.</p>
+</li>
+<li>
+<p><a href="https://github.com/stephenmcd/cartridge/">cartridge</a> — A shopping cart application designed to provide a clean and simple base for developing e-commerce websites.</p>
+</li>
+</ul>
+<h2 id="games-development">Games development<a class="headerlink" href="#games-development" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://api.arcade.academy/en/latest/">arcade</a> — An easy-to-learn Python library for creating 2D video games. It is ideal for people learning to program, or developers that want to code a 2D game without learning a complex framework.</p>
+</li>
+<li>
+<p><a href="https://github.com/kitao/pyxel">pixel</a> — A retro game engine for Python.</p>
+</li>
+</ul>
+<h2 id="gui">GUI<a class="headerlink" href="#gui" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/hoffstadt/DearPyGui">DearPyGui</a> — A fast and powerful Graphical User Interface Toolkit for Python with minimal dependencies.</li>
+</ul>
+<h2 id="information-gathering">Information gathering<a class="headerlink" href="#information-gathering" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/sherlock-project/sherlock">sherlock</a> — <img alt="🔎" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f50e.png" title=":mag_right:" /> Hunt down social media accounts by username across social networks.</li>
+</ul>
+<h2 id="image-manipulation">Image manipulation<a class="headerlink" href="#image-manipulation" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://github.com/xinntao/Real-ESRGAN">Real-ESRGAN</a> — Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration.</p>
+</li>
+<li>
+<p><a href="https://github.com/Djdefrag/QualityScaler">QualityScaler</a> — Image/video upscaling GUI app based on BRSGAN &amp; RealSR_JPEG</p>
+</li>
+<li>
+<p><a href="https://docs.wand-py.org/">wand</a> — A ctypes-based simple ImageMagick binding with Python modern interfaces.</p>
+</li>
+</ul>
+<h2 id="integrations">Integrations<a class="headerlink" href="#integrations" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/Pycord-Development/pycord">pycord</a> — A python wrapper for the Discord API.</li>
+</ul>
+<h2 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://github.com/hynek/structlog">structlog</a> <a href="https://www.structlog.org/en/stable/">[docs]</a> — Structured Logging for Python.</p>
+</li>
+<li>
+<p><a href="https://github.com/MasoniteFramework/exceptionite">exceptionite</a> — A Python Exception Library. Designed to make handling and displaying exceptions a cinch.</p>
+</li>
+</ul>
+<h2 id="network">Network<a class="headerlink" href="#network" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p>⭐ <a href="https://mitmproxy.org/">mitmproxy</a> (<a href="https://pypi.org/project/mitmproxy/">pip</a>) — A free and open source interactive HTTPS proxy.</p>
+</li>
+<li>
+<p>⭐ <a href="https://www.dnspython.org/">dnspython</a> — a DNS toolkit for Python. It can be used for queries, zone transfers, dynamic updates, nameserver testing, and many other things.</p>
+</li>
+</ul>
+<h2 id="notifications">Notifications<a class="headerlink" href="#notifications" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/caronc/apprise">apprise</a> — Push Notifications that work with just about every platform !</li>
+</ul>
+<h2 id="parsing">Parsing<a class="headerlink" href="#parsing" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://github.com/kellyjonbrazil/jello">jello</a> — CLI tool to filter JSON and JSON Lines data with Python syntax (Similar to jq).</p>
+</li>
+<li>
+<p><a href="https://github.com/jmespath/jp">jp</a> — Command line interface to JMESPath.</p>
+</li>
+<li>
+<p><a href="https://github.com/kellyjonbrazil/jc">jc</a> — CLI tool and python library that converts the output of popular command-line tools and file-types to JSON or Dictionaries. This allows piping of output to tools like jq and simplifying automation scripts.</p>
+</li>
+<li>
+<p><a href="https://github.com/executablebooks/markdown-it-py">markdown-it-py</a> — Markdown parser, done right. 100% CommonMark support, extensions, syntax plugins &amp; high speed. Now in Python!</p>
+</li>
+<li>
+<p><a href="https://github.com/lemon24/reader">reader</a> — A feed reader library.</p>
+</li>
+</ul>
+<h2 id="schedulers">Schedulers<a class="headerlink" href="#schedulers" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/Miksus/rocketry">rocketry</a> — Modern scheduling library for Python.</li>
+</ul>
+<h2 id="security">Security<a class="headerlink" href="#security" title="Permanent link">&para;</a></h2>
+<ul>
+<li>⭐ <a href="https://github.com/jaraco/keyring">keyring</a> — An easy way to access the system keyring service from python. It can be used in any application that needs safe password storage.</li>
+</ul>
+<h2 id="static-sites">Static Sites<a class="headerlink" href="#static-sites" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/pradyunsg/furo">furo</a> — A clean customizable documentation theme for Sphinx.</li>
+</ul>
+<h2 id="styling">Styling<a class="headerlink" href="#styling" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/psf/black">black</a> —  The uncompromising Python code formatter.</li>
+</ul>
+<h2 id="task-queues">Task queues<a class="headerlink" href="#task-queues" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/coleifer/huey">huey</a> [<a href="https://huey.readthedocs.io/en/latest/index.html">docs</a>] — A little task queue for python.</li>
+</ul>
+<h2 id="telemetry">Telemetry<a class="headerlink" href="#telemetry" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://opentelemetry-python.readthedocs.io/en/stable/index.html">opentelemetry</a> — a collection of tools, APIs, and SDKs. You use it to instrument, generate, collect, and export telemetry data (metrics, logs, and traces) for analysis in order to understand your software's performance and behavior.</li>
+</ul>
+<h2 id="templates">Templates<a class="headerlink" href="#templates" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="https://github.com/sqlalchemy/mako">mako</a> —  a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.</li>
+</ul>
+<h2 id="tests">Tests<a class="headerlink" href="#tests" title="Permanent link">&para;</a></h2>
+<ul>
+<li>
+<p><a href="https://github.com/wntrblm/nox">nox</a> — Flexible test automation for Python. Like <code>tox</code> but using a Python file for configuration.</p>
+</li>
+<li>
+<p>⭐ <a href="https://tox.readthedocs.io/en/latest/">tox</a> — automate and standardize testing in Python.</p>
+</li>
+<li>
+<p><a href="https://github.com/tox-dev/tox-pipenv">tox-pipenv</a> — a tox plugin to replace the default use of virtualenv with Pipenv.</p>
+</li>
+<li>
+<p>⭐ <a href="https://github.com/robotframework/robotframework">robotframework</a> — generic automation framework for acceptance testing and RPA.</p>
+</li>
+<li>
+<p><a href="https://github.com/locustio/locust">locust</a> [<a href="https://locust.io/">home</a>] — Scalable user load testing tool written in Python.</p>
+</li>
+</ul>
+<h2 id="video-editing">Video editing<a class="headerlink" href="#video-editing" title="Permanent link">&para;</a></h2>
+<ul>
+<li>⭐ <a href="https://github.com/antiboredom/videogrep">videogrep</a> — Automatic video supercuts with Python.</li>
+</ul>
+<h2 id="version-control">Version control<a class="headerlink" href="#version-control" title="Permanent link">&para;</a></h2>
+<ul>
+<li>⭐ <a href="https://github.com/gitpython-developers/GitPython">GitPython</a> — A python library used to interact with Git repositories.</li>
+</ul>
+<h2 id="virtual-environments">Virtual environments<a class="headerlink" href="#virtual-environments" title="Permanent link">&para;</a></h2>
+<ul>
+<li>⭐ <a href="https://github.com/ekalinin/nodeenv">nodenv</a> — Virtual environment for Node.js &amp; integrator with virtualenv.</li>
+</ul>
+
+  <hr>
+<div class="md-source-file">
+  <small>
+    
+      Last update:
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2022-05-08</span>
+      
+    
+  </small>
+</div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../kubernetes/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Kubernetes" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              Kubernetes
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../game-development/" class="md-footer__link md-footer__link--next" aria-label="Next: Game Development" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Game Development
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Awesomeness community
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.sections"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>
