@@ -18,6 +18,10 @@ tags:
 
 - [kroki](https://github.com/yuzutech/kroki) — Aa unified API which creates diagrams from textual descriptions.
 
+## Documentation
+
+- [outline](https://github.com/outline/outline) — The fastest wiki and knowledge base for growing teams. Beautiful, realtime, feature rich, and markdown compatible.
+
 ## Automation
 
 - [huginn](https://github.com/huginn/huginn) — Create agents that monitor and act on your behalf. Build agents that perform automated tasks for you online.
