@@ -1,0 +1,39 @@
+# Inspiration: https://github.com/spotDL/spotify-downloader
+
+name: "Tests"
+
+on:
+  push:
+    branches-ignore:
+      - "main"
+  pull_request:
+    types:
+      - "opened"
+
+jobs:
+  docs:
+    if: "!contains(github.event.commits[0].message, '[skip ci]')"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "⬇️ Checkout sources"
+        uses: "actions/checkout@v3"
+        with:
+          fetch-depth: 0
+
+      - name: "💾 Install poetry"
+        run: "pipx install poetry"
+
+      - name: "🐍 Set up Python"
+        uses: "actions/setup-python@v4"
+        with:
+          cache: "poetry"
+
+      - name: "💾 Install dependencies"
+        run: |
+          poetry env use "3.10"
+          poetry install
+
+      - name: "🏗️ Build docs"
+        run: |
+          poetry run mkdocs build --strict
