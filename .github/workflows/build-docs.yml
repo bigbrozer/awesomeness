@@ -1,6 +1,6 @@
 # Inspiration: https://github.com/spotDL/spotify-downloader
 
-name: Deploy the awesomeness to GitHub pages
+name: "Deploy GitHub Pages"
 
 on:
   push:
