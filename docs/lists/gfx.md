@@ -3,7 +3,7 @@ tags:
   - graphics
 ---
 
-# GFX
+# Graphics & Art
 
 <div align="center">
     <a href="https://awesome.re">

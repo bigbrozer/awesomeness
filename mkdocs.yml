@@ -119,24 +119,23 @@ plugins:
 nav:
   - Home: index.md
   - Awesome Lists:
-    - Pinned:
-      - lists/golang.md
-      - lists/godot.md
-      - lists/kubernetes.md
-      - lists/python.md
-    - Development:
-      - lists/game-development.md
-      - lists/javascript.md
-      - lists/web-development.md
-    - Graphics:
-      - lists/gfx.md
     - Do It Yourself:
       - lists/home-automation.md
       - lists/self-hosted.md
-    - Systems:
-      - lists/hardware.md
-      - lists/networking.md
-      - lists/utilities.md
+    - General:
+      - lists/game-development.md
+      - lists/gfx.md
+      - lists/web-development.md
+    - Languages & Frameworks:
+      - lists/godot.md
+      - lists/golang.md
+      - lists/javascript.md
+      - lists/python.md
     - Privacy:
       - lists/block-lists.md
+    - Systems:
+      - lists/hardware.md
+      - lists/kubernetes.md
+      - lists/networking.md
+      - lists/utilities.md
   - tags.md
