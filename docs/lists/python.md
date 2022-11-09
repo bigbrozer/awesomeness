@@ -174,7 +174,7 @@ Enjoy ❤️
 
 - ⭐ [arcade](https://api.arcade.academy/en/latest/) — An easy-to-learn Python library for creating 2D video games. It is ideal for people learning to program, or developers that want to code a 2D game without learning a complex framework.
 
-- [pixel](https://github.com/kitao/pyxel) — A retro game engine for Python.
+- [pyxel](https://github.com/kitao/pyxel) — A retro game engine for Python.
 
 ## GUI
 
