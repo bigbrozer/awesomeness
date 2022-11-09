@@ -232,6 +232,10 @@ Enjoy ❤️
 
 - ⭐ [keyring](https://github.com/jaraco/keyring) — An easy way to access the system keyring service from python. It can be used in any application that needs safe password storage.
 
+## Sound & Music
+
+- [spotify-downloader](https://github.com/spotDL/spotify-downloader) — Download your Spotify playlists and songs along with album art and metadata (from YouTube if a match is found).
+
 ## Static Sites
 
 - [furo](https://github.com/pradyunsg/furo) — A clean customizable documentation theme for Sphinx.
