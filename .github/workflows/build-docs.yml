@@ -1,0 +1,36 @@
+# Inspiration: https://github.com/spotDL/spotify-downloader
+
+name: Deploy the awesomeness to GitHub pages
+
+on:
+  push:
+    branches:
+      - "main"
+
+jobs:
+  deploy:
+    if: "!contains(github.event.commits[0].message, '[skip ci]')"
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: "⬇️ Checkout sources"
+        uses: "actions/checkout@v3"
+        with:
+          fetch-depth: 0
+
+      - name: "💾 Install poetry"
+        run: "pipx install poetry"
+
+      - name: "🐍 Set up Python"
+        uses: "actions/setup-python@v4"
+        with:
+          cache: "poetry"
+
+      - name: "💾 Install dependencies"
+        run: |
+          poetry env use "3.10"
+          poetry install
+
+      - name: "🏗️ Build and deploy"
+        run: |
+          poetry run mkdocs gh-deploy
