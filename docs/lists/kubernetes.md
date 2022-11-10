@@ -58,6 +58,8 @@ Kubebuilder
 
 - [pyrra](https://github.com/pyrra-dev/pyrra) — Making SLOs with Prometheus manageable, accessible, and easy to use for everyone!
 
+- [kiali](https://github.com/kiali/kiali) — Observability for the Istio service mesh.
+
 ## Networking
 
 - [kube-vip](https://github.com/kube-vip/kube-vip) [[homepage](https://kube-vip.chipzoller.dev/)] — Provides Kubernetes clusters with a virtual IP and load balancer for both the control plane (for building a highly-available cluster) and Kubernetes Services of type LoadBalancer without relying on any external hardware or software.
