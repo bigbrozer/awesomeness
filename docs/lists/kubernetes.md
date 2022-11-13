@@ -66,6 +66,8 @@ Kubebuilder
 
 - [k8spacket](https://github.com/k8spacket/k8spacket) — helps to understand TCP packets traffic in your kubernetes cluster with packets traffic visualization.
 
+- [wireguard-operator](https://github.com/jodevsa/wireguard-operator) — A wireguard operator created to easily provision a VPN in a k8s cluster.
+
 ## Security
 
 - **Hardening Your Kubernetes Cluster** — Covers the NSA and CISA guide on Kubernetes hardening in a serie of articles.
