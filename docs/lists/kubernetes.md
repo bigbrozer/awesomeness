@@ -30,6 +30,10 @@ tags:
 
 - [kube-opex-analytics](https://github.com/rchakode/kube-opex-analytics) — Usage Analytics and Accounting for Cost Allocation and Capacity Planning. **Limited free edition**.
 
+## Database
+
+- [schemahero](https://github.com/schemahero/schemahero) — A Kubernetes operator for declarative database schema management (gitops for database schemas).
+
 ## Debugger
 
 - [buildg](https://github.com/ktock/buildg) — Interactive debugger for Dockerfile, with support for IDEs (VS Code, Emacs, Neovim, etc.)
