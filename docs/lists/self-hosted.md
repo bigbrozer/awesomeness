@@ -14,6 +14,10 @@ tags:
 
 * * *
 
+## Automation
+
+- [huginn](https://github.com/huginn/huginn) — Create agents that monitor and act on your behalf. Build agents that perform automated tasks for you online.
+
 ## Diagrams
 
 - [kroki](https://github.com/yuzutech/kroki) — Aa unified API which creates diagrams from textual descriptions.
@@ -22,13 +26,13 @@ tags:
 
 - [outline](https://github.com/outline/outline) — The fastest wiki and knowledge base for growing teams. Beautiful, realtime, feature rich, and markdown compatible.
 
-## Automation
-
-- [huginn](https://github.com/huginn/huginn) — Create agents that monitor and act on your behalf. Build agents that perform automated tasks for you online.
-
 ## DNS
 
 - [serverless-dns](https://github.com/serverless-dns/serverless-dns) — The RethinkDNS resolver that deploys to Cloudflare Workers, Deno Deploy, and Fly.io.
+
+## File sharing
+
+- [psitransfer](https://github.com/psi-4ward/psitransfer) — Simple open source self-hosted file sharing solution.
 
 ## KVM
 
