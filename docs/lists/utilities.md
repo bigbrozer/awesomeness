@@ -13,6 +13,10 @@ tags:
 
 * * *
 
+## Communication
+
+- [signal-export](https://github.com/carderne/signal-export) — Export your Signal chats to markdown files with attachments.
+
 ## Build Systems
 
 - [ninja](https://github.com/ninja-build/ninja) — A small build system with a focus on speed.
