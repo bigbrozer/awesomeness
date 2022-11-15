@@ -72,6 +72,10 @@ Kubebuilder
 
 - [wireguard-operator](https://github.com/jodevsa/wireguard-operator) — A wireguard operator created to easily provision a VPN in a k8s cluster.
 
+## Scheduler
+
+- [furiko](https://github.com/furiko-io/furiko) — an operator for managing, scheduling and executing scheduled and adhoc jobs and workflows (including cron jobs, batch processing, workflow automation, ...).
+
 ## Security
 
 - **Hardening Your Kubernetes Cluster** — Covers the NSA and CISA guide on Kubernetes hardening in a serie of articles.
