@@ -268,6 +268,8 @@ Enjoy ❤️
 
 - [locust](https://github.com/locustio/locust) [[home](https://locust.io/)] — Scalable user load testing tool written in Python.
 
+- [faker](https://github.com/joke2k/faker) — A Python package that generates fake data for you.
+
 ## Video editing
 
 - ⭐ [videogrep](https://github.com/antiboredom/videogrep) — Automatic video supercuts with Python.
