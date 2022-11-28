@@ -63,6 +63,8 @@ tags:
 
 - [trufflehog](https://github.com/trufflesecurity/trufflehog) — Find credentials all over the place
 
+- [wazuh](https://github.com/wazuh/wazuh) — An open source platform used for threat prevention, detection, and response. It is capable of protecting workloads across on-premises, virtualized, containerized, and cloud-based environments.
+
 ## Social networks
 
 - [Infinity for Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit) — A Reddit client on Android written in Java. It does not have any ads and it features clean UI and smooth browsing experience.
