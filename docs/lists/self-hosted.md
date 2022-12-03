@@ -46,6 +46,10 @@ tags:
 
 - ⭐ [searxng](https://github.com/searxng/searxng) — A free internet metasearch engine which aggregates results from various search services and databases. Users are neither tracked nor profiled.
 
+## Newsletter
+
+- [listmonk](https://github.com/knadh/listmonk) — High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
+
 ## Photo sharing
 
 - [pixelfed](https://github.com/pixelfed/pixelfed) — Photo Sharing. For Everyone.
