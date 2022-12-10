@@ -44,6 +44,10 @@ tags:
 
 - [kooper](https://github.com/spotahome/kooper) — A simple Go library to create Kubernetes operators and controllers.
 
+## Networking
+
+- [weron](https://github.com/pojntfx/weron) — Overlay networks based on WebRTC.
+
 ## Microservice
 
 - [chi](https://github.com/go-chi/chi) — A lightweight, idiomatic and composable router for building Go HTTP services.
