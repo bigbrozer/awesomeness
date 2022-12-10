@@ -38,6 +38,8 @@ Enjoy ❤️
 
 - ⭐ [authentik](https://github.com/goauthentik/authentik) — An open-source Identity Provider focused on flexibility and versatility.
 
+- [authlib](https://github.com/lepture/authlib) — The ultimate Python library in building OAuth, OpenID Connect clients and servers. JWS,JWE,JWK,JWA,JWT included.
+
 ## Automation
 
 - ⭐ [doit](https://github.com/pydoit/doit) ([docs](https://pydoit.org/contents.html)) — bringing the power of build-tools to execute any kind of task.
@@ -151,6 +153,8 @@ Enjoy ❤️
 ## Databases
 
 - [peewee](https://github.com/coleifer/peewee) ([docs](http://docs.peewee-orm.com/en/latest/)) — a small, expressive orm that supports postgresql, mysql and sqlite.
+
+- [piccolo](https://github.com/piccolo-orm/piccolo) — A fast, user friendly ORM and query builder which supports asyncio.
 
 ## Documentation
 
