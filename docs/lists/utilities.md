@@ -73,6 +73,10 @@ tags:
 
 - [Warp](https://github.com/warpdotdev/Warp) — A blazingly-fast modern Rust based GPU-accelerated terminal built to make you and your team more productive.
 
+## Version controls
+
+- [git-cliff](https://github.com/orhun/git-cliff) — A highly customizable Changelog Generator that follows Conventional Commit specifications.
+
 ## Version managers
 
 - [asdf](https://github.com/asdf-vm/asdf) — Extendable version manager with support for Ruby, Node.js, Elixir, Erlang & more.
