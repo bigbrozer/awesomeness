@@ -99,6 +99,8 @@ tags:
 
 - [godot_spatial_gardener](https://github.com/dreadpon/godot_spatial_gardener) — A plugin for painting plants and props on arbitrary 3D surfaces implemented in GDScript.
 
+- [Waterways](https://github.com/Arnklit/Waterways) — A tool to generate river meshes with flow and foam maps based on bezier curves.
+
 ## Tests
 
 - [WAT](https://github.com/AlexDarigan/WAT) — A Testing Plugin for Godot Game Engine
