@@ -69,6 +69,10 @@ tags:
 
 - [Infinity for Reddit](https://github.com/Docile-Alligator/Infinity-For-Reddit) — A Reddit client on Android written in Java. It does not have any ads and it features clean UI and smooth browsing experience.
 
+## Storage
+
+- [stratisd](https://github.com/stratis-storage/stratisd) — Easy to use local storage management for Linux. Provides ZFS/Btrfs-style features by integrating Linux's devicemapper subsystem, and the XFS filesystem.
+
 ## Terminal
 
 - [Warp](https://github.com/warpdotdev/Warp) — A blazingly-fast modern Rust based GPU-accelerated terminal built to make you and your team more productive.
