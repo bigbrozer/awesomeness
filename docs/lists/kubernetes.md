@@ -88,6 +88,10 @@ Kubebuilder
 
 - [stackrox](https://github.com/stackrox/stackrox) — The StackRox Kubernetes Security Platform performs a risk analysis of the container environment, delivers visibility and runtime alerts, and provides recommendations to proactively improve security by hardening the environment.
 
+## Storage
+
+- [torpedo](https://github.com/portworx/torpedo) — A test suite to qualify storage providers for stateful containers running in a cluster.
+
 ## Operators
 
 - [config-syncer](https://github.com/kubeops/config-syncer) — Keeps ConfigMaps and Secrets synchronized across namespaces and/or clusters.
