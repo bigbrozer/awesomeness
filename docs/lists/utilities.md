@@ -39,6 +39,10 @@ tags:
 
 - [label-studio](https://github.com/heartexlabs/label-studio) — a multi-type data labeling and annotation tool with standardized output format.
 
+## Download managers
+
+- [Hitomi-Downloader](https://github.com/KurtBestor/Hitomi-Downloader) — Desktop utility to download images/videos/music/text from various websites, and more.
+
 ## File systems
 
 - [watchman](https://github.com/facebook/watchman) — Watches files and records, or triggers actions, when they change.
