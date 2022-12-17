@@ -18,6 +18,10 @@ tags:
 
 - [huginn](https://github.com/huginn/huginn) — Create agents that monitor and act on your behalf. Build agents that perform automated tasks for you online.
 
+## Family & friends
+
+- [poenskelisten](https://github.com/aunefyren/poenskelisten) — A self-hosted application for sharing wishlists and collaborating on gifts and presents.
+
 ## Diagrams
 
 - [kroki](https://github.com/yuzutech/kroki) — Aa unified API which creates diagrams from textual descriptions.
