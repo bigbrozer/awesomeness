@@ -54,6 +54,10 @@ tags:
 
 - [listmonk](https://github.com/knadh/listmonk) — High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app.
 
+## Notes
+
+- [memos](https://github.com/usememos/memos) — An open-source, self-hosted memo hub with knowledge management and socialization.
+
 ## Photo sharing
 
 - [pixelfed](https://github.com/pixelfed/pixelfed) — Photo Sharing. For Everyone.
