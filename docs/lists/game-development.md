@@ -17,6 +17,10 @@ tags:
 
 - ⭐ [crocotile3d](https://prominent.itch.io/crocotile3d) — A tool for creating 3d scenes with tiles. Think of it as creating 2d tilemaps with three dimensions.
 
+## Level design
+
+- [ldtk](https://github.com/deepnight/ldtk) — Modern, lightweight and efficient 2D level editor.
+
 ## Sound & Music
 
 - [Ardour](https://github.com/Ardour/ardour) — Record, Edit, and Mix on Linux, macOS and Windows.
