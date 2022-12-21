@@ -58,6 +58,10 @@ tags:
 
 - [teller](https://github.com/SpectralOps/teller) — A secrets management tool for developers.
 
+## Task management
+
+- [task](https://github.com/go-task/task) — A task runner / build tool that aims to be simpler and easier to use than, for example, GNU Make.
+
 ## Text manipulation
 
 - [gron](https://github.com/tomnomnom/gron) — Make JSON greppable!
