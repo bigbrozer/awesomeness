@@ -17,6 +17,10 @@ tags:
 
 - ⭐ [crocotile3d](https://prominent.itch.io/crocotile3d) — A tool for creating 3d scenes with tiles. Think of it as creating 2d tilemaps with three dimensions.
 
+## Animation
+
+- [t3 (Tooll 3)](https://github.com/still-scene/t3) — An open source software to create realtime motion graphics.
+
 ## Level design
 
 - [ldtk](https://github.com/deepnight/ldtk) — Modern, lightweight and efficient 2D level editor.
