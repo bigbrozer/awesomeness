@@ -63,6 +63,10 @@ tags:
 
 - [godot-card-game-framework](https://github.com/db0/godot-card-game-framework) — A framework which comes with prepared scenes and classes to kickstart your card game, as well as a powerful scripting engine to use to provide full rules enforcement.
 
+## Mobile
+
+- [godot-admob-editor](https://github.com/Poing-Studios/godot-admob-editor) — Integrate natively AdMob to your Game Project without much configurations, with a beautiful UI and directly inside Godot Editor!
+
 ## Plugins
 
 - [godot-git-plugin](https://github.com/godotengine/godot-git-plugin) — A Git plugin for the Godot Editor.
