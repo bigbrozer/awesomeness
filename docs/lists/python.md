@@ -24,6 +24,8 @@ Enjoy ❤️
 
 - [min-dalle](https://github.com/kuprel/min-dalle) — A minimal implementation of DALL·E Mini.
 
+- [petals](https://github.com/bigscience-workshop/petals) — Run 100B+ language models at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading.
+
 ## API
 
 - ⭐ [fastapi](https://github.com/tiangolo/fastapi) — FastAPI framework, high performance, easy to learn, fast to code, ready for production.
