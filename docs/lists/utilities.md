@@ -61,6 +61,10 @@ tags:
 
 - [netboot.xyz](https://github.com/netbootxyz/netboot.xyz) — A network-based bootable operating system installer based on iPXE.
 
+## Remote control
+
+- [KasmVNC](https://github.com/kasmtech/KasmVNC) — Modern VNC Server and client, web based and secure.
+
 ## Security
 
 - [hackingtool](https://github.com/Z4nzu/hackingtool) — ALL IN ONE Hacking Tool For Hackers
