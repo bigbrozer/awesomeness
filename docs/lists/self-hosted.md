@@ -18,6 +18,10 @@ tags:
 
 - [huginn](https://github.com/huginn/huginn) — Create agents that monitor and act on your behalf. Build agents that perform automated tasks for you online.
 
+## Communities
+
+- [flarum](https://github.com/flarum/flarum) — Simple forum software for building great communities.
+
 ## Family & friends
 
 - [poenskelisten](https://github.com/aunefyren/poenskelisten) — A self-hosted application for sharing wishlists and collaborating on gifts and presents.
