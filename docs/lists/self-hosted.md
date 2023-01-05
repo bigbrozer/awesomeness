@@ -22,6 +22,8 @@ tags:
 
 - [flarum](https://github.com/flarum/flarum) — Simple forum software for building great communities.
 
+- [answer](https://github.com/answerdev/answer) — An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.
+
 ## Family & friends
 
 - [poenskelisten](https://github.com/aunefyren/poenskelisten) — A self-hosted application for sharing wishlists and collaborating on gifts and presents.
