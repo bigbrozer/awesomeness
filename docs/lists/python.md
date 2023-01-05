@@ -260,6 +260,8 @@ Enjoy ❤️
 
 - [mako](https://github.com/sqlalchemy/mako) —  a template library written in Python. It provides a familiar, non-XML syntax which compiles into Python modules for maximum performance.
 
+- [faqtory](https://github.com/willmcgugan/faqtory) — A tool to generate FAQ.md documents and automatically suggest answers to issues.
+
 ## Tests
 
 - [nox](https://github.com/wntrblm/nox) — Flexible test automation for Python. Like `tox` but using a Python file for configuration.
