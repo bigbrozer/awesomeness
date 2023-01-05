@@ -36,3 +36,7 @@ tags:
 ## Video composition
 
 - [Natron](https://github.com/NatronGitHub/Natron) — Open-source video compositing software. Node-graph based. Similar in functionalities to Adobe After Effects and Nuke by The Foundry.
+
+## Visual effects
+
+- [Pixel-Composer](https://github.com/Ttanasart-pt/Pixel-Composer) — A node base VFX software for pixel art. With Pixel Composer, you can build complex animated visual effect procedurally.
