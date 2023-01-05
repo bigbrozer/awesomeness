@@ -188,13 +188,15 @@ Enjoy ❤️
 
 - [sherlock](https://github.com/sherlock-project/sherlock) — :mag_right: Hunt down social media accounts by username across social networks.
 
-## Image manipulation
+## Image processing
 
 - [Real-ESRGAN](https://github.com/xinntao/Real-ESRGAN) — Real-ESRGAN aims at developing Practical Algorithms for General Image Restoration.
 
 - [QualityScaler](https://github.com/Djdefrag/QualityScaler) — Image/video upscaling GUI app based on BRSGAN & RealSR_JPEG
 
 - [wand](https://docs.wand-py.org/) — A ctypes-based simple ImageMagick binding with Python modern interfaces.
+
+- [chaiNNer](https://github.com/chaiNNer-org/chaiNNer) — A node-based image processing and AI upscaling GUI that makes it easy to chain together complex processing tasks.
 
 ## Integrations
 
