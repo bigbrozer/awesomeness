@@ -105,6 +105,8 @@ tags:
 
 - [Waterways](https://github.com/Arnklit/Waterways) — A tool to generate river meshes with flow and foam maps based on bezier curves.
 
+- [godot_heightmap_plugin](https://github.com/Zylann/godot_heightmap_plugin) — HeightMap terrain for Godot implemented in GDScript.
+
 ## Tests
 
 - [WAT](https://github.com/AlexDarigan/WAT) — A Testing Plugin for Godot Game Engine
