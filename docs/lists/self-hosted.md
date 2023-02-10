@@ -24,6 +24,10 @@ tags:
 
 - [answer](https://github.com/answerdev/answer) — An open-source knowledge-based community software. You can use it quickly to build Q&A community for your products, customers, teams, and more.
 
+## Data platform
+
+- [directus](https://github.com/directus/directus) — An instant REST+GraphQL API and intuitive no-code data collaboration app for any SQL database.
+
 ## Family & friends
 
 - [poenskelisten](https://github.com/aunefyren/poenskelisten) — A self-hosted application for sharing wishlists and collaborating on gifts and presents.
