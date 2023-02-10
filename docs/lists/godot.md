@@ -113,6 +113,10 @@ tags:
 
 - [Gut](https://github.com/bitwes/Gut) — Godot Unit Test. Unit testing tool for Godot Game Engine.
 
+## Tutorials
+
+- [Godot-Things](https://github.com/MitchMakesThings/Godot-Things) — Collection of tutorials and mini-projects.
+
 ## UI
 
 - [SmoothScroll](https://github.com/SpyrexDE/SmoothScroll) — An addon, made for Godot that adds a SmoothScrollContainer.
