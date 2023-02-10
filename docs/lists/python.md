@@ -291,3 +291,7 @@ Enjoy ❤️
 ## Virtual environments
 
 - ⭐ [nodenv](https://github.com/ekalinin/nodeenv) — Virtual environment for Node.js & integrator with virtualenv.
+
+## Web platforms
+
+- [idom](https://github.com/idom-team/idom) — Create highly interactive web pages purely in Python.
