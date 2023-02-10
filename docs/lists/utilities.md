@@ -65,6 +65,10 @@ tags:
 
 - [KasmVNC](https://github.com/kasmtech/KasmVNC) — Modern VNC Server and client, web based and secure.
 
+## Resume
+
+- [Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume) — A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever.
+
 ## Security
 
 - [hackingtool](https://github.com/Z4nzu/hackingtool) — ALL IN ONE Hacking Tool For Hackers
