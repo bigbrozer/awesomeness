@@ -113,6 +113,10 @@ tags:
 
 - [Gut](https://github.com/bitwes/Gut) — Godot Unit Test. Unit testing tool for Godot Game Engine.
 
+## UI
+
+- [SmoothScroll](https://github.com/SpyrexDE/SmoothScroll) — An addon, made for Godot that adds a SmoothScrollContainer.
+
 ## Visual effects
 
 - [godot-visual-effects](https://github.com/GDQuest/godot-visual-effects) — Open-source visual effects designed in Godot, from our VFX Secrets course.
