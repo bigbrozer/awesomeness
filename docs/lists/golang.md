@@ -28,6 +28,8 @@ tags:
 
 - [dolt](https://github.com/dolthub/dolt) — A SQL database that you can fork, clone, branch, merge, push and pull just like a git repository.
 
+- [tbls](https://github.com/k1LoW/tbls) — A CI-Friendly tool for document a database schema using markdown and introspection.
+
 ## Desktop
 
 - [wails](https://github.com/wailsapp/wails) — Create desktop apps using Go and Web Technologies.
