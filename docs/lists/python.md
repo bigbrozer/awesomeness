@@ -88,6 +88,8 @@ Enjoy ❤️
 
 - ⭐ [rich](https://github.com/willmcgugan/rich) ([docs](https://rich.readthedocs.io/en/latest/index.html)) — a Python library for rich text and beautiful formatting in the terminal.
 
+- ⭐ [survey](https://github.com/Exahilosys/survey) — A simple library for creating beautiful interactive prompts.
+
 ## Configuration
 
 - ⭐ [everett](https://github.com/willkg/everett) — Everett is a Python configuration library for your app.
